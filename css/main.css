@@ -1,29 +1,49 @@
 a {
 	text-decoration: none;
 }
+
+/**********************************
+GENERAL
+**********************************/
+
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
 }
 
+a {
+	text-decoration: none;
+}
+
+/**********************************
+HEADING
+**********************************/
+
 #logo {
 	text-align: center;
 	margin: 0;
 }
 
-a {
-	color: #6ab47b;
+/*********************************
+COLORS
+*********************************/
+
+/*  Site Body */
+
+body {
+	background-color: #fff;
+	color: #999;
 }
+
+/* Green Header  */
 
 header {
 	background: #6ab47b;
 	border-color: #599a68;
 }
 
-h1, h2 {
-	color: #fff;
-}
+/*    */
 
 nav {
 	background: #599a68;
@@ -37,7 +57,12 @@ nav a.selected, nav a:hover {
 	color: #32673f;
 }
 
-body {
-	background-color: #fff;
-	color: #999;
+
+
+h1, h2 {
+	color: #fff;
+}
+
+a {
+	color: #6ab47b;
 }
